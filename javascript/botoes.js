@@ -5,6 +5,7 @@ function clickCriptografar(evento)
 	let textoCodificado = codificar(texto);
 
 	let textoSecundario = document.querySelector("#textoSecundario");
+	textoSecundario.style.background = "none";
 	textoSecundario.value = textoCodificado;
 }
 

@@ -15,7 +15,7 @@ body
 
 .flexbox-item{
 	margin: 0 50px;
-	border: solid;
+	border: none;
 	height: 480px;
 	flex-shrink: 0;
 }
@@ -27,7 +27,6 @@ body
 
 .texto-1{
 	position: relative;
-	background-color: red;
 	width: 50%;
 	margin: auto;
 }
