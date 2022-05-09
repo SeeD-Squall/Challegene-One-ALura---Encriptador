@@ -1,0 +1,94 @@
+body 
+{
+	background-color: #F3F5FC;
+}
+
+.flexbox-container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+
+	height: 600px;
+}
+
+.flexbox-item{
+	margin: 0 50px;
+	border: solid;
+	height: 480px;
+	flex-shrink: 0;
+}
+
+.flexbox-item-1{
+	width: 780px;
+	
+}
+
+.texto-1{
+	position: relative;
+	background-color: red;
+	width: 50%;
+	margin: auto;
+}
+
+.flexbox-container textarea{
+	border-radius: 25px;
+}
+
+.texto-1 textarea{
+	width: 90%;
+	height: 380px;
+	text-align: center;
+	margin: 15px;
+	resize: none;
+
+	font-size: 32px;
+	line-height: 48px;
+	color: #0A3871;
+}
+
+.flexbox-item-2{
+	width: 300px;
+
+}
+
+.texto-2 textarea{
+	background: url('../img/img.png') no-repeat scroll center center;
+	width: 90%;
+	height: 380px;
+	text-align: center;
+	margin: 13px;
+	resize: none;
+
+}
+
+.botoes button{
+	border-radius:6px;
+	width: 150px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.botaoCD{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+	position: relative;
+	width: 250px;
+	margin: 10px 38%;
+	font-size: 20px;
+}
+
+
+.botaoCr button{
+	background-color: #0A3871;
+	display: inline;
+}
+
+.botaoD button{
+	background-color: ##D8DFE8;
+	display: inline;
+}
